@@ -1,0 +1,12 @@
+name: Tutorial
+version: 1.0
+author: asifislam
+main: dev.asifislam.tutorial.Tutorial
+api-version: 1.8.8
+commands:
+  wand:
+    description: Gives custom wand to player
+    usage: /wand
+  heal:
+    description: Test
+    usage: /heal
