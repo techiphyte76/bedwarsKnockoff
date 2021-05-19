@@ -1,12 +1,12 @@
-package dev.asifislam.tutorial.commands;
+package dev.asifislam.bedwars.commands;
 
-import dev.asifislam.tutorial.items.ItemManager;
+import dev.asifislam.bedwars.items.ItemManager;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class TutorialCommands implements CommandExecutor {
+public class MyCommands implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!(sender instanceof Player)) {

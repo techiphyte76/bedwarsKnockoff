@@ -1,4 +1,4 @@
-package dev.asifislam.tutorial.events;
+package dev.asifislam.bedwars.events;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -13,9 +13,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import java.awt.event.ItemEvent;
-
-public class TutorialEvents implements Listener{
+public class MyEvents implements Listener{
     @EventHandler
     public static void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();

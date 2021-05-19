@@ -1,7 +1,7 @@
-name: Tutorial
+name: Bedwars
 version: 1.0
 author: asifislam
-main: dev.asifislam.tutorial.Tutorial
+main: dev.asifislam.bedwars.Main
 api-version: 1.8.8
 commands:
   wand:

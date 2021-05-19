@@ -1,17 +1,17 @@
-package dev.asifislam.tutorial;
+package dev.asifislam.bedwars;
 
-import dev.asifislam.tutorial.commands.TutorialCommands;
-import dev.asifislam.tutorial.events.TutorialEvents;
-import dev.asifislam.tutorial.items.ItemManager;
+import dev.asifislam.bedwars.commands.MyCommands;
+import dev.asifislam.bedwars.events.MyEvents;
+import dev.asifislam.bedwars.items.ItemManager;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Tutorial extends JavaPlugin {
+public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getServer().getPluginManager().registerEvents(new TutorialEvents(), this);
-        TutorialCommands commands = new TutorialCommands();
+        getServer().getPluginManager().registerEvents(new MyEvents(), this);
+        MyCommands commands = new MyCommands();
 
         ItemManager.init();
         getCommand("wand").setExecutor(commands);
